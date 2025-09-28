@@ -7,6 +7,7 @@ export default {
   theme: defaultTheme({
     navbar: [
       { text: 'Home', link: '/' },
+      { text: 'CV', link: '/cv.html' } ,
       { text: 'GitHub', link: 'https://github.com/AbdullahDilshadJaff' },
     ],
     themeConfig: {
@@ -16,3 +17,4 @@ export default {
   }),
   bundler: viteBundler(),
 };
+
